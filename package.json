@@ -1,0 +1,30 @@
+{
+  "name": "to_do_list",
+  "version": "1.0.0",
+  "description": "Create a 'todos' list where I can dynamically create items I wish to do and set priority, title, description, dueDate, and notes",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haruchenexe/to_do_list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haruchenexe/to_do_list/issues"
+  },
+  "homepage": "https://github.com/haruchenexe/to_do_list#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

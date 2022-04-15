@@ -1,0 +1,17 @@
+1. Create a dashboard which allows user to create a project 
+2. Create a button that allows user to create a form that will require user to enter the following list
+3. Each project should be desgined as the following:
+    Design: What kind of properties do I want my todo list webpage to contain?
+        - minimum:
+            - title
+            - description
+            - dueDate
+            - priority
+            - notes
+            - checklist
+
+    When the user first load the page a default project todos should be listed for the user.
+4. User should be able to input the tolist fields above and populate the project div
+5. Create 4 separate div. To-do, In-Progress, Done, and Blocked for project management sake
+6. This is how i'm going to create draggable div: https://www.youtube.com/watch?v=jfYWwQrtzzY&ab_channel=WebDevSimplified
+
