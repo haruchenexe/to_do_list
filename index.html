@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>to_do_list</title>
+</head>
+<body>
+    <div id=top-container>
+        <h1>Task-Management</h1>
+        <button id="addProject" data-form-target="#form">Add Project</button>
+    </div>
+    <div class="form" id="form" id="formContainer">
+        <div class="form-header">Project Example
+            <div class="form-title"></div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="body-text">
+            <div class="form-container">
+                <label id="form-title">Project Name</label>
+                <input id="project-title" type="text" placeholder="Enter Project">
+                <label id="form-priority">Priority</label>
+                <select id="priority-input">
+                    <option id="highP" class="priorityRank">High</option>
+                    <option id="mediumP" class="priorityRank">Medium</option>
+                    <option id="lowP" class="priorityRank">Low</option>
+                </select>
+                <label id="describle">Description</label>
+                <input id="describle-input" type="text" placeholder="Enter Description">
+                <label id="due-date">Due Date</label>
+                <input id="due-date-input" type="date">
+                <label id="submit"></label>
+                <button id="submitBtn">Submit</button>
+            </div>
+        </div>
+    <div id="overlay"></div>
+    </div>
+    <div id="container">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
